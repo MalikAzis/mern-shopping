@@ -1,0 +1,21 @@
+{
+  "name": "mern-stack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "author": "Malik",
+  "license": "MIT"
+}
